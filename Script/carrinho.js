@@ -262,7 +262,7 @@ function renderizarPaginaCarrinho() {
 
         <button class="btn-comprar-tudo" onclick="finalizarCompra(${valorTotal}, ${totalItens})">Finalizar Compra</button>
 
-        <button class="btn-voltar-compras" onclick="window.location.href='padaria-landinpage.html'">Voltar às Compras</button>
+        <button class="btn-voltar-compras" onclick="window.location.href='index.html'">Voltar às Compras</button>
 
         <button class="btn-remover-checkout" style="width:100%; margin-top:15px; text-align:center;" onclick="limparCarrinhoCompleto()">Esvaziar Carrinho</button>
     `;
