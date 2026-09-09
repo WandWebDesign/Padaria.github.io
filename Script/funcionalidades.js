@@ -208,7 +208,7 @@ function fecharCarrinho() {
 function fazerLogout() {
     localStorage.removeItem('usuarioLogado');
     localStorage.removeItem('emailUsuario');
-    window.location.href = 'padaria-landinpage.html';
+    window.location.href = 'index.html';
 }
 
 // Opcional: Função para verificar no header e mudar o texto de "Login" para "Sair"
