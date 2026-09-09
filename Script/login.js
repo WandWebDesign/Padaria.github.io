@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // Manda de volta para a página inicial
         setTimeout(() => {
-            window.location.href = 'padaria-landinpage.html';
+            window.location.href = 'index.html';
         }, 1500);
         return; // Para a execução do script aqui, impedindo que o resto carregue
     }
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (dados.tipo_usuario === 'funcionario') {
                             window.location.href = 'Admin/HTML/index-admin.html'; // Vai pro Painel
                         } else {
-                            window.location.href = 'padaria-landinpage.html'; // Vai pra Loja
+                            window.location.href = 'index.html'; // Vai pra Loja
                         }
                     }, 1500); 
 
