@@ -135,10 +135,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     if (typeof mostrarToast === 'function') {
                         mostrarToast(`Bem-vindo(a) à família, ${nome.split(' ')[0]}! Criando sua conta...`);
-                        setTimeout(() => { window.location.href = 'padaria-landinpage.html'; }, 2000);
+                        setTimeout(() => { window.location.href = 'index.html'; }, 2000);
                     } else {
                         alert('Cadastro realizado com sucesso!');
-                        window.location.href = 'padaria-landinpage.html';
+                        window.location.href = 'index.html';
                     }
                 } else {
                     alert(dados.erro || 'Erro ao realizar o cadastro.');
